@@ -1,0 +1,71 @@
+@mixin GridText{
+
+    a{
+        border: 2px solid lightsalmon;
+        padding: 0 26px 2px;
+        border-radius: 22px;
+        margin-left: 43px;
+
+        
+        img{
+            
+            margin-top: 5px;
+
+        }
+    }
+
+
+}
+
+@mixin GridPrice {
+    display: flex;
+    margin: -4px 18px;
+    padding-top: 7px;
+    border-top: 1px solid black;
+
+    h3{
+        margin-right: 116px;
+    }
+
+    .btn{
+       color: white;
+       background-color: #f5564e;
+       padding: 2px 12px;
+       border: 1px solid black;
+       border-radius: 2px
+    }
+}
+
+@mixin GridImage {
+    position: relative;
+            
+    .like{
+        position: absolute;
+        top: 36px;
+        right: 36px;
+    }
+}
+
+
+
+// @media (min-width: 357px) and (max-width: 1024px){
+
+//     @mixin GridText{
+
+//         a{
+//             border: 2px solid lightsalmon;
+//             padding: 0 46px 2px;
+//             border-radius: 22px;
+//             margin-left: 46px;
+    
+            
+//             img{
+                
+//                 margin-top: 5px;
+    
+//             }
+//         }
+    
+    
+//     }
+// }

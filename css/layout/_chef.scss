@@ -1,0 +1,100 @@
+.orders{
+    margin-top: 20px;
+    height: 650px;
+
+    img{
+        height: 325px;
+    }
+}
+
+
+.chef-main{
+    width: 343px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 48px;  
+}
+
+.chef-text{
+    display: flex;
+    flex-direction: row;
+    margin: 60px auto;
+}
+
+.chef-Text{
+    width: 900px;
+    margin-top: 60px;
+    p{
+        padding: 20px;
+        margin-right: 130px;
+    }
+}
+
+
+@media (min-width: 357px) and (max-width: 1024px){
+
+    .orders{
+        margin-top: 10px;
+        height: 509px;
+        img{
+            display: none;
+        }
+    }
+
+    .chef-main{
+        padding-top: 20px;  
+    }
+
+    .chef-text{
+        margin: 72px auto;
+      }
+
+      .chef-Text{
+        margin: 0 auto;
+
+        p{
+            padding: 30px;
+            margin: auto;
+            line-height: 28px;
+            width: 768px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+
+    .orders{
+        margin-top: 10px;
+        height: 409px;
+
+        img{
+            display: none;
+        }
+    }
+
+
+
+    .chef-main{
+        font-size: 26px;
+        padding-top: 20px;  
+    }
+
+    .chef-text{
+      margin: 10px auto;
+    }
+
+    .chef-Text{
+        margin: 0 auto;
+
+        p{
+            padding: 10px;
+            margin: auto;
+            line-height: 22px;
+            width: 337px;
+        }
+    }
+
+}
+
+

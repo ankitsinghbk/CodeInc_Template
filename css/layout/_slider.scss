@@ -1,0 +1,33 @@
+
+
+.product{
+    height: 550px;
+    padding-top: 150px;
+   
+
+}
+
+.glider{
+    height: 427px;
+    width: auto;
+    margin-top: 150px;
+
+    .slider-content {
+        width: 282px;
+        height: 407px;
+        margin: 10px auto;
+
+
+        .img-slide{
+            -webkit-clip-path: circle(48.9% at 50% 65%);
+            clip-path: circle(48.9% at 50% 65%);
+            margin-bottom: 25px;
+        }
+
+        figcaption{
+            margin: auto;
+            width: 200px;
+        }
+    }
+}
+

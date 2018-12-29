@@ -1,0 +1,130 @@
+footer {
+
+	color: #fff;
+	text-align: left;
+    padding: 4em 0;
+    height: 300px;
+
+
+
+}
+
+.container-foot{
+    background-color: #232323;
+}
+
+
+.main-footer{
+    height: 162px;
+    margin-left: 92px;
+
+}
+    
+.col-1 {
+        width: 25%;
+        float: left;
+        padding-left: 40px;
+        padding-bottom: 20px;
+      
+
+        li{
+            margin-top: 10px ;
+            font-size: 20px;
+            cursor: pointer;
+            
+            
+            &:not(:first-child){
+                font-size: 15px;
+                
+            }
+
+
+        }
+
+        .map{
+            width: 273px;
+            height: 148px;
+        }
+
+    }
+
+.linkbrk{
+    border-bottom: 2px solid white;
+}
+
+.sub-footer{
+   
+    margin: 14px 77px;
+    padding: 10px;
+}
+
+.col-3{
+        width: 33.3%;
+        float: left;
+        
+        
+        h3{
+            margin-left: 35px;
+        }
+
+        i{
+            margin-left: 50px;
+            cursor: pointer;
+        }
+}
+
+.flex-it{
+    display: flex;
+
+        a{
+            margin-top: 3px;
+            margin-left: 5px
+        }
+
+}
+
+.fa-google{
+    margin-left: 11px;
+    margin-top: 5px;
+}
+
+.maps{
+    width: 213px;
+    height: 131px;
+}
+
+
+@media (min-width: 357px) and (max-width: 1024px){
+    .fa-google{
+        margin-left: 27px !important;
+    }
+
+    .maps{
+        width: 180px;
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    .footer-list,.review,.Contact{
+        display: none;
+    }
+
+    .social-links{
+        display: flex;
+        margin-left: 50px;
+        align-content: center;
+
+    }
+
+    .sub-footer{
+   
+        margin: 14px auto;
+       
+    }
+
+    .maps{
+        margin-left: -50px;
+
+    }  
+}   
